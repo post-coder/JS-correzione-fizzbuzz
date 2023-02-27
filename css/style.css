@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+#container {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 10px;
+
+  padding: 20px;
+}
+
+#container div {
+
+  width: calc(100% / 10 - (10px / 10 * 9));
+  /* height: 70px; */
+  background-color: #1389b2;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  aspect-ratio: 1/1;
+
+}
+
+
+#container .fizz.buzz {
+  background-color: #f0466f;
+}
+
+#container .fizz {
+  background-color: #0cd6a1;
+}
+
+#container .buzz {
+  background-color: #ffd166;
+}
